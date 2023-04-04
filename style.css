@@ -1,0 +1,164 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100vh;
+  width: 95vw;
+  margin:0;
+  padding:0;
+}
+
+a{
+  color: #70757A;
+  padding: 5px;
+}
+
+div.page div.banniere img{
+  width: 20%;
+}
+
+.page{
+  display:flex;
+}
+.page{
+  flex-direction: column;
+  height:100%;
+}
+
+.header{
+  min-width: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 10%;
+  overflow: hidden;
+}
+
+.banniere{
+  align-items: center;
+  justify-content: end;
+  height: 30%;
+}
+
+
+
+.barre{
+  display:flex;
+  justify-content: center;
+}
+.search_barre {
+  display:flex;
+  background-color: transparent; /* Couleur de fond transparente */
+  border: 1px solid #999; /* Bordure grise de 2 pixels */
+  border-radius: 20px; /* Rayon de courbure de 10 pixels */
+  width: 600px; /* Largeur de 200 pixels */
+  height: 48px; /* Hauteur de 100 pixels */
+  box-sizing: border-box;
+}
+
+
+.search {
+  display: flex;
+  width: 100%; /* Largeur de 100% pour remplir la largeur du rectangle */
+  padding: 12px; /* Espacement intérieur de 12 pixels */
+  padding: 8px;
+  padding-left: 22px;
+  border: none; /* Pas de bordure */
+  outline: none; /* Pas d'effet de focus */
+  font-size: 16px; /* Taille de police de 16 pixels */
+  background-color: transparent; /* Couleur de fond transparente */
+  color: rgb(0, 0, 0);
+}
+
+.search-input {
+  border: none;
+  padding: 4px 8px;
+  width: 460px;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.search_left_icon {
+  height: 22px;
+  margin-right: 10px;
+  padding-top: 4px;
+}
+
+
+.search_right_icon {
+  height: 22px;
+  margin-left: 10px;
+  padding-top: 4px;
+}
+
+.right-icons {
+  margin-left: auto;
+}
+
+.boutons {
+  display:flex;
+  align-items:flex-start;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.recherche{
+  margin: 10px;
+  padding: 10px;
+}
+.lucky{
+  margin: 10px;
+  padding: 10px;
+}
+
+.aside{
+  display:block;
+  flex-grow: 0.7;
+  height: 20px;
+}
+
+.footer{
+  background-color: #2021;
+  flex-flow: row wrap;
+  align-items: end;
+  justify-content:baseline;
+  height: 1%;
+
+}
+
+hr{
+  width:95vw;
+  margin: 0;
+}
+
+.France p{
+  background-color: #2021;
+  color: #70757A;
+  padding: 0px 0px 0px 20px;
+  margin:0px;
+  justify-content: flex-end;
+}
+
+.liens{
+  justify-content: center;
+}
+
+.left{
+  background-color: #2021;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+}
+.middle{
+  background-color: #2021;
+  display:flex;
+  justify-content: center;
+}
+.right{
+  background-color: #2021;
+  display:flex;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
