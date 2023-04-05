@@ -9,6 +9,10 @@ body{
 a{
   color: #70757A;
   padding: 5px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:underline;
 }
 
 div.page div.banniere img{
@@ -122,7 +126,7 @@ div.page div.banniere img{
   background-color: #2021;
   flex-flow: row wrap;
   align-items: end;
-  justify-content:baseline;
+  justify-content:space-between;
   height: 1%;
 
 }
