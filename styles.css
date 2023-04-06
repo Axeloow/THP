@@ -1,0 +1,20 @@
+.jumbotron-hero{
+  height: 500px;
+  background-image: url("https://images8.alphacoders.com/435/435415.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+  display:flex;
+  flex-wrap: wrap;
+  width:auto;
+}
+
+.temoignages{
+  display:flex;
+  flex-wrap: wrap;
+  width:auto;
+}
+
